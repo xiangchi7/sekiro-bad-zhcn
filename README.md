@@ -1,5 +1,7 @@
 # 只狼 mod「Malevolence」简体中文汉化 · Simplified Chinese Localization
 
+**v1.7 · 2026-10** — 当前版本，与 Releases 里的 zip 是同一份（current version; the zip in Releases is this build）
+
 [中文](#中文) · [English](#english)
 
 ---
