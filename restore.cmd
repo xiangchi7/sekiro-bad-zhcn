@@ -66,6 +66,7 @@ set "FOUND="
 for %%F in (item.msgbnd.dcx menu.msgbnd.dcx) do (
   if exist "%TARGET%\msg\zhocn\%%F.bak" (
     copy /y "%TARGET%\msg\zhocn\%%F.bak" "%TARGET%\msg\zhocn\%%F" >nul
+    if exist "%TARGET%\msg\zhocn\%%F" del /q "%TARGET%\msg\zhocn\%%F.bak"
     echo   restored: %%F
     set "FOUND=1"
   ) else (
